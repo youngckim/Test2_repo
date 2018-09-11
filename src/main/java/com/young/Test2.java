@@ -16,6 +16,7 @@ public class Test2 {
 	public static void main(String... args) {
 		SpringApplication.run(Test2.class, args);
 	    System.out.println("sdjflsdfk");
+	    System.out.println("sddslkfdsffds");
 		
 	}
 
