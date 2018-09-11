@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+<table>
+    <thead>
+        <tr>
+            <th> Student ID </th>
+            <th> Name </th>
+        </tr>
+    </thead>
+    <tbody>
+    <tr th:if="${studentList.empty}">
+            <td colspan="2"> No Books Available </td>
+        </tr>
+        <tr th:each="book : ${studentList}">
+            <td><span th:text="${book.id}"> ID </span></td>
+            <td><span th:text="${book.name}"> Name </span></td>
+        </tr>
+    </tbody>
+</table>
+
+
+</body>
+</html>
