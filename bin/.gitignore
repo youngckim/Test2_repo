@@ -2,3 +2,10 @@
 /LibraryTest.class
 /com/
 /templates/
+.gradle/
+build/
+.classpath
+.project
+.settings/
+bin/
+.gitignore
