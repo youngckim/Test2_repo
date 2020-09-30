@@ -17,6 +17,11 @@ public class Test2 {
 		SpringApplication.run(Test2.class, args);
 	    System.out.println("sdjflsdfk");
 	    System.out.println("sddslkfdsffds");
+	    
+	    System.out.println("haha");
+	    System.out.println("haha");
+	    System.out.println("haha3");
+	    System.out.println("haha4");
 		
 	}
 
